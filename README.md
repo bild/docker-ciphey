@@ -1,6 +1,6 @@
 # docker-ciphey
 
-docker build -t docker-ciphey -f Dockerfile .
+docker build -t docker-ciphey -f Dockerfile .  
 docker run -it docker-ciphey /bin/bash
 
 `ciphey -t "Encrypted input"`
